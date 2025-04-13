@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken');
 const crypto = require('crypto');
 
-const JWT_SECRET = 'vignesh123'; 
+const JWT_SECRET = 'Suba123'; 
 const ENCRYPTION_KEY = crypto.randomBytes(32);
 const IV = crypto.randomBytes(16);
 
